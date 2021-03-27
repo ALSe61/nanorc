@@ -11,22 +11,20 @@ unset autoindent
 set nowrap
 set matchbrackets "(<[{)>]}"
 ## set brackets "\"')]}"
-unset mouse
-set tabsize 8
+set mouse
+set tabsize 4
 set softwrap
-#set suspendable
-#set const
 set smooth
 set rebindkeypad
 set boldtext
 set multibuffer
 set preserve
 set backup
-set historylog
+#set historylog
 set quickblank
-set wordbounds
 set linenumbers
-## set undo  # (still experimental/buggy on nano 2.2.x)
+set numbercolor yellow
+set wordbounds
 set nonewlines
 
 #| File          : ~/.nanorc
