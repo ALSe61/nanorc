@@ -411,6 +411,9 @@ include "~/.nano/nanorc.nanorc"
 ## Coloration for Julia
 include "~/.nano/julia.nanorc"
 
+## Coloration for TXT with cyrillics symbols :)
+include "~/.nano/txt.nanorc"
+
 ## Bonus: syntax highlighting
 include "/usr/share/nano/asm.nanorc"
 include "/usr/share/nano/awk.nanorc"
