@@ -8,15 +8,15 @@
 #
 
 unset autoindent
-#set nowrap
+set nowrap
 set matchbrackets "(<[{)>]}"
 ## set brackets "\"')]}"
-## unset mouse
+unset mouse
 set tabsize 8
 set softwrap
-set suspendable
-set const
-#set smooth
+#set suspendable
+#set const
+set smooth
 set rebindkeypad
 set boldtext
 set multibuffer
@@ -25,6 +25,7 @@ set backup
 set historylog
 set quickblank
 set wordbounds
+set linenumbers
 ## set undo  # (still experimental/buggy on nano 2.2.x)
 set nonewlines
 
@@ -48,14 +49,14 @@ set nonewlines
 #|
 
 ## cut/copy/paste
-# bind ^X cut          main
-# bind ^C copytext     main
-# bind ^V uncut        main
+bind ^X cut          main
+bind ^C copytext     main
+bind ^V uncut        main
 
 ## undo/redo (still experimental/buggy on nano 2.2.x)
 # set undo
-# bind ^Z undo         all
-# bind ^Y redo         all
+bind ^Z undo         all
+bind ^Y redo         all
 
 ## find/replace (shift+F3 still missing)
 # bind ^F whereis      main
@@ -64,9 +65,9 @@ set nonewlines
 # bind F3 searchagain  main
 
 ## save/quit/help (requires to ignore XON/XOFF keys)
-# unset preserve
-# bind ^S writeout     all
-# bind ^Q exit         all
+unset preserve
+bind ^S writeout     all
+bind ^Q exit         all
 bind F1 help         all
 
 #------- New Syntax Highlight ------------
