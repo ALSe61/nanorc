@@ -1,9 +1,11 @@
-## nanorc file *.txt with colorized cirilic symbols
+## nanorc file *.txt with colorized cyrillics symbols
+ 2
+ 3 syntax "txt" "\.txt$"
+ 4 color green "\<[A-Z,a-z,]{1,}\>"
+ 5 color brightblue "\<[А-Я,а-я,]{1,}\>"
+ 6 color yellow "\<[0-9,]{1,}\>"
+ 7 ## first symbol newline
+ 8 color magenta "[[:space:]]+[[:space:]]+[[:space:]]+[А-Я,]"
+ 9 color magenta "[[:space:]]+[А-Я,]"
+10 color magenta "#[[:space:]]+[А-Я,]"
 
-syntax "txt" "\.txt$" 
-
-color green "\<[A-Z,a-z,]{1,}\>"
-color cyan "\<[А-Я,а-я,]{1,}\>"
-color yellow "\<[0-9,]{1,}\>"
-# first "red" line symbol
-color brightblue "[[:space:]]+[[:space:]]+[[:space:]]+[А-Я,]"
