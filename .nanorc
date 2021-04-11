@@ -11,7 +11,7 @@ unset autoindent
 set nowrap
 set matchbrackets "(<[{)>]}"
 ## set brackets "\"')]}"
-set mouse
+unset mouse
 set tabsize 4
 set softwrap
 set smooth
@@ -19,7 +19,7 @@ set rebindkeypad
 set boldtext
 set multibuffer
 set preserve
-set backup
+#set backup
 #set historylog
 set quickblank
 set linenumbers
